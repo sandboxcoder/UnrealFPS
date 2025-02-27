@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Zuon",
+			"Path": "..\\Source\\Zuon.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ZuonEditor",
+			"Path": "..\\Source\\ZuonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

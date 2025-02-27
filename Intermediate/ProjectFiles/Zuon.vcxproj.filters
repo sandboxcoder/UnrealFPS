@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Zuon.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Zuon.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ZuonEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Zuon">
+      <UniqueIdentifier>{63271A94-4D1C-3B6C-94FE-BA17534D0D67}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Zuon\Zuon.Build.cs">
+      <Filter>Source\Zuon</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Zuon\Zuon.cpp">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\Zuon.h">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonCharacter.cpp">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonCharacter.h">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonGameMode.cpp">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonGameMode.h">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonPickUpComponent.cpp">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonPickUpComponent.h">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonProjectile.cpp">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonProjectile.h">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonWeaponComponent.cpp">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonWeaponComponent.h">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

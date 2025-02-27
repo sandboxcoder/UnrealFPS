@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64ec">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|arm64">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|arm64ec">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|arm64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|arm64ec">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|x64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|arm64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|arm64ec">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|x64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|arm64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|arm64ec">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|x64">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|arm64">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|arm64ec">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Debug|x64">
+      <Configuration>Android_arm64_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Debug|arm64">
+      <Configuration>Android_arm64_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Debug|arm64ec">
+      <Configuration>Android_arm64_Debug</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|x64">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|arm64">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|arm64ec">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|x64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|arm64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|arm64ec">
+      <Configuration>DebugGame</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|arm64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|arm64ec">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|x64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|arm64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|arm64ec">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|arm64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|arm64ec">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|x64">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|arm64">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|arm64ec">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_DebugGame|x64">
+      <Configuration>Android_arm64_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_DebugGame|arm64">
+      <Configuration>Android_arm64_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_DebugGame|arm64ec">
+      <Configuration>Android_arm64_DebugGame</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|x64">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|arm64">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|arm64ec">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|x64">
+      <Configuration>Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|arm64">
+      <Configuration>Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|arm64ec">
+      <Configuration>Development</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|arm64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|arm64ec">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|x64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|arm64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|arm64ec">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|x64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|arm64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|arm64ec">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|x64">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|arm64">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|arm64ec">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Development|x64">
+      <Configuration>Android_arm64_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Development|arm64">
+      <Configuration>Android_arm64_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Development|arm64ec">
+      <Configuration>Android_arm64_Development</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|x64">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|arm64">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|arm64ec">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|x64">
+      <Configuration>Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|arm64">
+      <Configuration>Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|arm64ec">
+      <Configuration>Test</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|x64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|arm64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|arm64ec">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|x64">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|arm64">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|arm64ec">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Test|x64">
+      <Configuration>Android_arm64_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Test|arm64">
+      <Configuration>Android_arm64_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Test|arm64ec">
+      <Configuration>Android_arm64_Test</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|x64">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|arm64">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|arm64ec">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|arm64">
+      <Configuration>Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|arm64ec">
+      <Configuration>Shipping</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|x64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|arm64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|arm64ec">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|x64">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|arm64">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|arm64ec">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Shipping|x64">
+      <Configuration>Android_arm64_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Shipping|arm64">
+      <Configuration>Android_arm64_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Shipping|arm64ec">
+      <Configuration>Android_arm64_Shipping</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|x64">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|arm64">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|arm64ec">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>arm64ec</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2884996-98EB-3B65-A0FF-260AFEDCB18E}</ProjectGuid>
+    <RootNamespace>Zuon</RootNamespace>
+  </PropertyGroup>
+  <Import Project="UECommon.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ActorPickerMode\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ActorPickerMode\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AdvancedPreviewScene\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AdvancedPreviewScene\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnalyticsET\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnalyticsET\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Analytics\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Analytics\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationBlueprintEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationBlueprintEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationWidgets\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationWidgets\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ApplicationCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ApplicationCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetDefinition\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetDefinition\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetRegistry\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetRegistry\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTagsEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTagsEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTools\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTools\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioExtensions\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioExtensions\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkEngine\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkEngine\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerXAudio2\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerXAudio2\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixer\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixer\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationController\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationController\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationTest\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationTest\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\BlueprintGraph\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\BlueprintGraph\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosSolverEngine\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosSolverEngine\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosVDRuntime\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosVDRuntime\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Chaos\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Chaos\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClassViewer\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClassViewer\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClothSysRuntimeIntrfc\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClothSysRuntimeIntrfc\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CollectionManager\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CollectionManager\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CommonMenuExtensions\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CommonMenuExtensions\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Constraints\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Constraints\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowserData\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowserData\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowser\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowser\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CookOnTheFly\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CookOnTheFly\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CorePreciseFP\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CorePreciseFP\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowEngine\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowEngine\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowSimulation\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowSimulation\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DesktopPlatform\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DesktopPlatform\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DetailCustomizations\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DetailCustomizations\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperSettings\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperSettings\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperToolSettings\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperToolSettings\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DirectoryWatcher\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DirectoryWatcher\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Documentation\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Documentation\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorConfig\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorConfig\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorFramework\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorFramework\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorSubsystem\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorSubsystem\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineMessages\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineMessages\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineSettings\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineSettings\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldNotification\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldNotification\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldSystemEngine\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldSystemEngine\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FunctionalTesting\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FunctionalTesting\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTags\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTags\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTasks\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTasks\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GraphEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GraphEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HeadMountedDisplay\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HeadMountedDisplay\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Horde\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Horde\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HTTP\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HTTP\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageWrapper\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageWrapper\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeEngine\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeEngine\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\IrisCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\IrisCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\JsonUtilities\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\JsonUtilities\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Json\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Json\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\KismetCompiler\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\KismetCompiler\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Kismet\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Kismet\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Landscape\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Landscape\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\LevelEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\LevelEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Localization\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Localization\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MainFrame\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MainFrame\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialUtilities\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialUtilities\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Merge\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Merge\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshBuilder\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshBuilder\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshDescription\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshDescription\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshMergeUtilities\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshMergeUtilities\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshReductionInterface\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshReductionInterface\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilitiesCommon\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilitiesCommon\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilities\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilities\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MessagingCommon\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MessagingCommon\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Messaging\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Messaging\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneCapture\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneCapture\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneTracks\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneTracks\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieScene\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieScene\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MSQS\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MSQS\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NavigationSystem\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NavigationSystem\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCommon\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCommon\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkFileSystem\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkFileSystem\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Networking\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Networking\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkReplayStreaming\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkReplayStreaming\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\OpenGLDrv\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\OpenGLDrv\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PacketHandler\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PacketHandler\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PakFile\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PakFile\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Persona\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Persona\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsUtilities\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsUtilities\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Projects\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Projects\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RawMesh\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RawMesh\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ReliableHComp\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ReliableHComp\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RenderCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RenderCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Renderer\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Renderer\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RHI\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RHI\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RSA\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RSA\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SandboxFile\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SandboxFile\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SceneDepthPickerMode\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SceneDepthPickerMode\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Settings\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Settings\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SignalProcessing\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SignalProcessing\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletalMeshDescription\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletalMeshDescription\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletonEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletonEditor\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SlateCore\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SlateCore\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Slate\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Slate\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Sockets\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Sockets\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SourceControl\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SourceControl\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StaticMeshDescription\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StaticMeshDescription\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StatusBar\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StatusBar\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StructViewer\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StructViewer\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectDataInterface\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectDataInterface\VNI;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectEditor\UHT;$(DefaultSystemIncludePaths);</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes);D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\x64\UnrealEditorGPF\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h;$(SolutionDir)Intermediate\Build\Win64\x64\UnrealEditorGPF\Development\Zuon\Definitions.Zuon.h</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus /Yu"D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\x64\UnrealEditorGPF\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Debugarm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Debugarm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditor-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditor-Win64-Debugarm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditor-Win64-Debugarm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Mac Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Mac Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Mac Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\Zuon-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Mac Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Mac Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Mac Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Mac Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Mac\UnrealEditor-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Mac Debug -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon IOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon IOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon IOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Zuon-IOS-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon IOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Debug|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Android Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Android Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Android Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\Zuon-Android-Debug.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Debug|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Android Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon TVOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon TVOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon TVOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\Zuon-TVOS-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon TVOS Debug -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-DebugGamearm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-DebugGamearm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGamearm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGamearm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Mac DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Mac DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Mac DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\Zuon-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Mac DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Mac DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Mac DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Mac DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Mac\UnrealEditor-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Mac DebugGame -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon IOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon IOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon IOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Zuon-IOS-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon IOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_DebugGame|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Android DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Android DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Android DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\Zuon-Android-DebugGame.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_DebugGame|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Android DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon TVOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon TVOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon TVOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\Zuon-TVOS-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon TVOS DebugGame -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuonarm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuonarm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditorarm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Win64\UnrealEditorarm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Mac Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Mac Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Mac Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\Zuon</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Mac Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="ZuonEditor Mac Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="ZuonEditor Mac Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="ZuonEditor Mac Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\projects\UnrealEngine\Engine\Binaries\Mac\UnrealEditor</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="ZuonEditor Mac Development -Project=\"$(SolutionDir)Zuon.uproject\"" -Target="ShaderCompileWorker Win64 Development -Project=\"$(SolutionDir)Zuon.uproject\" -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon IOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon IOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon IOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Zuon</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon IOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Development|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Android Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Android Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Android Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\Zuon.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Development|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Android Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon TVOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon TVOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon TVOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\Zuon</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon TVOS Development -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Testarm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Testarm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Mac Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Mac Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Mac Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\Zuon-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Mac Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon IOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon IOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon IOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Zuon-IOS-Test</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon IOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Test|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Android Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Android Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Android Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\Zuon-Android-Test.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Test|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Android Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon TVOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon TVOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon TVOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\Zuon-TVOS-Test</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon TVOS Test -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=x64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Shippingarm64.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64ec'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Zuon-Win64-Shippingarm64ec.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64ec'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Win64 Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Mac Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Mac Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Mac Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\Zuon-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Mac Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon IOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon IOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon IOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Zuon-IOS-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon IOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Shipping|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon Android Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon Android Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon Android Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\Zuon-Android-Shipping.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Shipping|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon Android Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) Zuon TVOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) Zuon TVOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) Zuon TVOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\Zuon-TVOS-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) Zuon TVOS Shipping -Project="$(SolutionDir)Zuon.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup>
+    <ClCompile_AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\projects\UnrealEngine\Engine\Source;..\Build\Win64\UnrealEditor\Inc\Zuon\UHT;..\Build\Win64\UnrealEditor\Inc\Zuon\VNI;..\..\Source;D:\projects\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Core\Internal;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TraceLog\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TraceLog\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\CoreUObject\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\CorePreciseFP\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\CorePreciseFP\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\Engine\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\Engine\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Engine\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\CoreOnline\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\FieldNotification\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Net\Core\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\Net\Core\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\ImageCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Json\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\JsonUtilities\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\DeveloperSettings\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\InputCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\RHI\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Slate\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Messaging\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\MessagingCommon\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\RenderCore\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\OpenGLDrv\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Analytics\AnalyticsET\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Analytics\Analytics\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Sockets\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\EngineMessages\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\EngineSettings\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\EngineSettings\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SynthBenchmark\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SynthBenchmark\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\SynthBenchmark\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\GameplayTags\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\GameplayTags\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AudioPlatformConfiguration\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\MeshDescription\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\StaticMeshDescription\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\SkeletalMeshDescription\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AnimationCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\PakFile\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\PakFile\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\RSA\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\PhysicsCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\Chaos\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Voronoi\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Voronoi\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\GeometryCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosVisualDebugger\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\SignalProcessing\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AudioExtensions\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AudioMixerCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AudioMixer\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\AudioMixer\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TargetPlatform\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TargetPlatform\VNI;D:\projects\UnrealEngine\Engine\Source\Developer\TargetPlatform\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureFormat\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureFormat\VNI;D:\projects\UnrealEngine\Engine\Source\Developer\TextureFormat\Public;D:\projects\UnrealEngine\Engine\Source\Developer\DesktopPlatform\Public;D:\projects\UnrealEngine\Engine\Source\Developer\DesktopPlatform\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\AudioLink\AudioLinkEngine\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AudioLink\AudioLinkCore\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\CookOnTheFly\Internal;D:\projects\UnrealEngine\Engine\Source\Runtime\Networking\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureBuildUtilities\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureBuildUtilities\VNI;D:\projects\UnrealEngine\Engine\Source\Developer\TextureBuildUtilities\Public;D:\projects\UnrealEngine\Engine\Source\Developer\Horde\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\Iris\Core\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\MovieSceneCapture\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Renderer\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Renderer\Internal;D:\projects\UnrealEngine\Engine\Shaders\Public;D:\projects\UnrealEngine\Engine\Shaders\Shared;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementFramework\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementFramework\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\TypedElementFramework\Tests;D:\projects\UnrealEngine\Engine\Source\Runtime\TypedElementFramework\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementRuntime\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementRuntime\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\TypedElementRuntime\Public;D:\projects\UnrealEngine\Engine\Source\Developer\AnimationDataController\Public;D:\projects\UnrealEngine\Engine\Source\Editor\AnimationBlueprintEditor\Public;D:\projects\UnrealEngine\Engine\Source\Editor\Kismet\Classes;D:\projects\UnrealEngine\Engine\Source\Editor\Kismet\Public;D:\projects\UnrealEngine\Engine\Source\Editor\Kismet\Internal;D:\projects\UnrealEngine\Engine\Source\Editor\Persona\Public;D:\projects\UnrealEngine\Engine\Source\Editor\SkeletonEditor\Public;D:\projects\UnrealEngine\Engine\Source\Developer\AnimationWidgets\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolWidgets\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolWidgets\VNI;D:\projects\UnrealEngine\Engine\Source\Developer\ToolWidgets\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenus\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenus\VNI;D:\projects\UnrealEngine\Engine\Source\Developer\ToolMenus\Public;D:\projects\UnrealEngine\Engine\Source\Editor\AnimationEditor\Public;D:\projects\UnrealEngine\Engine\Source\Editor\AdvancedPreviewScene\Public;D:\projects\UnrealEngine\Engine\Source\Editor\PropertyEditor\Public;D:\projects\UnrealEngine\Engine\Source\Editor\EditorConfig\Public;D:\projects\UnrealEngine\Engine\Source\Editor\EditorFramework\Public;D:\projects\UnrealEngine\Engine\Source\Editor\EditorSubsystem\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\InteractiveToolsFramework\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEd\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEd\VNI;D:\projects\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public;D:\projects\UnrealEngine\Engine\Source\Editor\UnrealEd\Classes;D:\projects\UnrealEngine\Engine\Source\Editor\UnrealEd\Public;D:\projects\UnrealEngine\Engine\Source\Editor\AssetTagsEditor\Public;D:\projects\UnrealEngine\Engine\Source\Developer\CollectionManager\Public;D:\projects\UnrealEngine\Engine\Source\Editor\ContentBrowser\Public;D:\projects\UnrealEngine\Engine\Source\Developer\AssetTools\Public;D:\projects\UnrealEngine\Engine\Source\Developer\AssetTools\Internal;D:\projects\UnrealEngine\Engine\Source\Editor\AssetDefinition\Public;D:\projects\UnrealEngine\Engine\Source\Developer\Merge\Public;D:\projects\UnrealEngine\Engine\Source\Editor\ContentBrowserData\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Projects\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Projects\Internal;D:\projects\UnrealEngine\Engine\Source\Developer\MeshUtilities\Public;D:\projects\UnrealEngine\Engine\Source\Developer\MeshMergeUtilities\Public;D:\projects\UnrealEngine\Engine\Source\Developer\MeshReductionInterface\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\RawMesh\Public;D:\projects\UnrealEngine\Engine\Source\Developer\MaterialUtilities\Public;D:\projects\UnrealEngine\Engine\Source\Editor\KismetCompiler\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Public;D:\projects\UnrealEngine\Engine\Source\Editor\ClassViewer\Public;D:\projects\UnrealEngine\Engine\Source\Developer\DirectoryWatcher\Public;D:\projects\UnrealEngine\Engine\Source\Editor\Documentation\Public;D:\projects\UnrealEngine\Engine\Source\Editor\MainFrame\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\SandboxFile\Public;D:\projects\UnrealEngine\Engine\Source\Developer\SourceControl\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UncontrolledChangelists\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UncontrolledChangelists\VNI;D:\projects\UnrealEngine\Engine\Source\Developer\UncontrolledChangelists\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEdMessages\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEdMessages\VNI;D:\projects\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Classes;D:\projects\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Public;D:\projects\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Classes;D:\projects\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Internal;D:\projects\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Classes;D:\projects\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Public;D:\projects\UnrealEngine\Engine\Source\Developer\AutomationController\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\AutomationTest\Public;D:\projects\UnrealEngine\Engine\Source\Developer\Localization\Public;D:\projects\UnrealEngine\Engine\Source\Editor\AudioEditor\Classes;D:\projects\UnrealEngine\Engine\Source\Editor\AudioEditor\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UELibSampleRate\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UELibSampleRate\VNI;D:\projects\UnrealEngine\Engine\Source\ThirdParty\libSampleRate\Public;D:\projects\UnrealEngine\Engine\Source\Editor\LevelEditor\Public;D:\projects\UnrealEngine\Engine\Source\Editor\CommonMenuExtensions\Public;D:\projects\UnrealEngine\Engine\Source\Developer\Settings\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\VREditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\VREditor\VNI;D:\projects\UnrealEngine\Engine\Source\Editor\VREditor\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ViewportInteraction\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ViewportInteraction\VNI;D:\projects\UnrealEngine\Engine\Source\Editor\ViewportInteraction\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\HeadMountedDisplay\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Landscape\Classes;D:\projects\UnrealEngine\Engine\Source\Runtime\Landscape\Public;D:\projects\UnrealEngine\Engine\Source\Editor\DetailCustomizations\Public;D:\projects\UnrealEngine\Engine\Source\Editor\GraphEditor\Public;D:\projects\UnrealEngine\Engine\Source\Editor\StructViewer\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\NetworkFileSystem\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\UMG\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\MovieScene\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TimeManagement\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TimeManagement\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\TimeManagement\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UniversalObjectLocator\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UniversalObjectLocator\VNI;D:\projects\UnrealEngine\Engine\Source\Runtime\UniversalObjectLocator\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\MovieSceneTracks\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\Animation\Constraints\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\PropertyPath\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\NavigationSystem\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosSolverEngine\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\Dataflow\Core\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\Dataflow\Engine\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Experimental\Dataflow\Simulation\Public;D:\projects\UnrealEngine\Engine\Source\Developer\MeshBuilder\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\MeshUtilitiesCommon\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenusEditor\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenusEditor\VNI;D:\projects\UnrealEngine\Engine\Source\Editor\ToolMenusEditor\Public;D:\projects\UnrealEngine\Engine\Source\Editor\StatusBar\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Interchange\Core\Public;D:\projects\UnrealEngine\Engine\Source\Runtime\Interchange\Engine\Public;D:\projects\UnrealEngine\Engine\Source\Developer\DeveloperToolSettings\Classes;D:\projects\UnrealEngine\Engine\Source\Developer\DeveloperToolSettings\Public;D:\projects\UnrealEngine\Engine\Source\Editor\SubobjectDataInterface\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectEditor\VNI;D:\projects\UnrealEngine\Engine\Source\Editor\SubobjectEditor\Public;D:\projects\UnrealEngine\Engine\Source\Developer\PhysicsUtilities\Public;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\WidgetRegistration\UHT;D:\projects\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\WidgetRegistration\VNI;D:\projects\UnrealEngine\Engine\Source\Developer\WidgetRegistration\Public;D:\projects\UnrealEngine\Engine\Source\Editor\ActorPickerMode\Public;D:\projects\UnrealEngine\Engine\Source\Editor\SceneDepthPickerMode\Public;D:\projects\UnrealEngine\Engine\Source\Editor\AnimationEditMode\Public;D:\projects\UnrealEngine\Engine\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT;D:\projects\UnrealEngine\Engine\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\VNI;D:\projects\UnrealEngine\Engine\Plugins\EnhancedInput\Source;D:\projects\UnrealEngine\Engine\Plugins\EnhancedInput\Source\EnhancedInput\Public;D:\projects\UnrealEngine\Engine\Source\ThirdParty\GuidelinesSupportLibrary\GSL-1144\include;D:\projects\UnrealEngine\Engine\Source\ThirdParty\RapidJSON\1.1.0;D:\projects\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\projects\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;D:\projects\UnrealEngine\Engine\Source\ThirdParty\OpenGL</ClCompile_AdditionalIncludeDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Zuon.uproject"/>
+    <None Include="..\..\Source\Zuon.Target.cs"/>
+    <None Include="..\..\Source\ZuonEditor.Target.cs"/>
+    <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Source\Zuon\Zuon.Build.cs"/>
+    <ClCompile Include="..\..\Source\Zuon\Zuon.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\Zuon.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonCharacter.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonCharacter.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonGameMode.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonGameMode.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonPickUpComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonPickUpComponent.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonProjectile.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonProjectile.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonWeaponComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonWeaponComponent.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
