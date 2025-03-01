@@ -1,6 +1,6 @@
 ## About
 
-Sample Unreal FPS project. Stay tuned.
+Sample Unreal FPS project. Currently, this is based on the FPS UnrealProject template.
 
 ## Unreal Engine version
 
