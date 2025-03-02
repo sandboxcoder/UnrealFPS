@@ -10,4 +10,4 @@ you'll see the Pause menu.
 
 ## Unreal Engine version
 
-Currently using UE 5.5.3
+Currently using UE 5.5.3. You'll need to have [UnrealEngine](https://github.com/sandboxcoder/UnrealEngine) locally installed in order to compile this project.
