@@ -79,6 +79,9 @@
     <None Include="..\..\..\..\UnrealEngine\Engine\Config\ConsoleVariables.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\..\..\UnrealEngine\Engine\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\..\..\UnrealEngine\Engine\Config\PluginBase.ini">
       <Filter>Config</Filter>
     </None>

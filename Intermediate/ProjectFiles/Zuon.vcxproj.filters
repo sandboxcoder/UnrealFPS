@@ -11,6 +11,9 @@
     <None Include="..\..\Source\ZuonEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -57,6 +60,12 @@
       <Filter>Source\Zuon</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Zuon\ZuonPickUpComponent.h">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonPlayerController.cpp">
+      <Filter>Source\Zuon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Zuon\ZuonPlayerController.h">
       <Filter>Source\Zuon</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Zuon\ZuonProjectile.cpp">
